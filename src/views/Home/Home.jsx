@@ -51,7 +51,11 @@ function Home() {
         Do you want to create your own Diwali Greeting? Customize it here..👇
       </p>
       {/* <p>{import.meta.env.VITE_BASE_URL}</p> */}
-      <p className="url">
+      <p className="url" onClick={()=>{
+        const url = `${import.meta.env.VITE_BASE_URL}?to=${to}&from=${from}&g=${greetingNumber}&t=${themeNumber}`
+        navigator.clipboard.writeText(url);
+        alert(`Copied to clipboard: ${url}`);
+     }}>
         {import.meta.env.VITE_BASE_URL}?to={to}&from={from}&g={greetingNumber}&t={themeNumber}
       </p>
       <div className="input-container">
