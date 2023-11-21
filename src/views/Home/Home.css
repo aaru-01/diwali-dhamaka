@@ -1,13 +1,110 @@
-.greeting-container{
+.greeting-container {
     background-color: #fff;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 1px solid #ddd;
     padding: 20px;
     position: relative;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
 }
-.from-text{
-position: absolute;
-right: 10px;
-bottom: 10px;
+
+.from-text {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.diwali-lamp {
+    height: 50px;
+    position: absolute;
+    top: 10px;
+}
+
+.left-lamp {
+    left: 10px;
+}
+
+.right-lamp {
+    right: 10px;
+}
+
+.lamp {
+    height: 50px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+
+/*https://cssgradient.io/gradient-backgrounds/*/
+.theme-1 {
+    background-color: #a8b4eb;
+    background-image: linear-gradient(43deg, #ca5c9a 0%, #95e9ed 46%, #fccf7b 100%);
+}
+
+.theme-2 {
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #c9d0ef 100%);
+
+}
+
+.theme-3 {
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+.theme-4 {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, rgb(243, 239, 129) 0%, #f25cf5 100%);
+}
+
+.theme-5 {
+    background-color: #bc5ee8;
+    background-image: linear-gradient(62deg, #d78efc 0%, rgb(252, 228, 121) 100%);
+}
+
+.theme-6 {
+    background-color: #f13ed6;
+    background-image: linear-gradient(180deg, #e9b9b9 0%, #ffff62 100%, #fff374 100%);
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-box {
+    width: 120px;
+    margin: 10px 20px;
+}
+.url{
+    /* margin-top: 100px; */
+    text-align: center;
+    background-color: #f0f0f5;
+    padding: 10px;
+}
+.create-your-own{
+    text-align: center;
+    margin-top: 100px;
+}
+
+@media screen and (max-width:768px) {
+    .greeting-container {
+        width: 80%;
+    }
+
+    .input-container {
+        flex-direction: column;
+    }
+
+    .input-box {
+        width: 200px;
+    }
+    .create-your-own{
+        text-align: center;
+        margin-top: 30px;
+    }
+
 }
