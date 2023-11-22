@@ -7,8 +7,8 @@ import { useState } from "react";
 
 
 const GREETINGS = [
-  "Wishing you a very happy and prosperous Diwali..!May the light of the diyas guide you towards the path of happiness and success",
-  "Shubh Diwali! May the festival of lights bring you good fortune and prosperity.",
+  "Wishing you a blessed, healthy, and prosperous Diwali..!May the light of the diyas guide you towards the path of happiness and success",
+  "Wishing you a very happy and prosperous Diwali! May the light of the diyas guide you towards the path of happiness and success. On this Diwali, I pray to Lakshmi to bless you with wealth, health, and happiness. May you and your family enjoy this festive season with peace and joyShubh Diwali! May the festival of lights bring you good fortune and prosperity.",
   "May this diwali fill your life with the colors of the rainbow, May you experience the beauty and diversity of life. May you embrace the harmony and unity of all.",
   "Deepavali ki hardik shubhkamnayein! May the divine light of Diwali guide you on your path to success and happienes",
   "Wishing you a sparkling Diwali filled with laughter, fun and the brightest of moments. Happy Diwali..!!",
