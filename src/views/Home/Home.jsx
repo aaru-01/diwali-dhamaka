@@ -8,10 +8,10 @@ import { useState } from "react";
 
 const GREETINGS = [
   "Wishing you a blessed, healthy, and prosperous Diwali..!May the light of the diyas guide you towards the path of happiness and success",
-  "Wishing you a very happy and prosperous Diwali! May the light of the diyas guide you towards the path of happiness and success. On this Diwali, I pray to Lakshmi to bless you with wealth, health, and happiness. May you and your family enjoy this festive season with peace and joyShubh Diwali! May the festival of lights bring you good fortune and prosperity.",
+  "Wishing you a very happy Diwali! On this Diwali, I pray to Lakshmi to bless you with wealth, health, and happiness. May you and your family enjoy this festive season with peace and joyShubh Diwali!",
   "May this diwali fill your life with the colors of the rainbow, May you experience the beauty and diversity of life. May you embrace the harmony and unity of all.",
   "Deepavali ki hardik shubhkamnayein! May the divine light of Diwali guide you on your path to success and happienes",
-  "Wishing you a sparkling Diwali filled with laughter, fun and the brightest of moments. Happy Diwali..!!",
+  "Wishing you a sparkling Diwali filled with laughter, fun and the brightest of moments. Happy Diwali..!!May the festival of lights bring you good fortune and prosperity.",
   "Diwali is a time to create beautiful memories with loved ones. May this festival bring joy, laughter and togetherness to our family. Happy Diwali..!",
   "May this Diwali bring you new opportunities, new achievements, and new dreams. May you shine like a star and sparkle like a diamond. Happy Diwali!"
 
@@ -33,7 +33,7 @@ function Home() {
       <div className={`greeting-container ${`theme-${themeNumber}`}`}>
 
         <img src={DiwaliLamp} className="diwali-lamp left-lamp" />
-
+<h2 className="heading-hbd">Happy Diwali..!😍</h2>
         <img src={DiwaliLamp} className="diwali-lamp right-lamp" />
 
         <br /><br /><br />
@@ -47,6 +47,7 @@ function Home() {
 
 
       </div>
+      
       <p className="create-your-own">
         Do you want to create your own Diwali Greeting? Customize it here..👇
       </p>
